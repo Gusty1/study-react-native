@@ -23,7 +23,8 @@
 
 1. 電腦上執行模擬器
    要先裝 android studio 的模擬器，然後下載最新的 SDK；npm start 前模擬器要先啟好。
-   ![android_start](images\android_start.png 'android啟動')
+   ![android_start](https://cdn.jsdelivr.net/gh/gusty1/Study_ReactNative@main/images/android_start.png 'android啟動')
+
 2. 手機啟動
    先去 play 商店裝 expo，然後掃 QR code 或直接輸入網址
 
@@ -79,7 +80,7 @@ shadowOpacity: 0.26,
 ### 常數使用
 
 開發中我們會把一些常用的變量設定為常數，這樣維護和修改都方便，CSS 使用也一樣。
-![css常數設定](images\constants_css.png 'css常數設定')
+![css常數設定](https://cdn.jsdelivr.net/gh/gusty1/Study_ReactNative@main/images/constants_css.png 'css常數設定')
 
 ```javascript
 //color.js
@@ -609,4 +610,4 @@ function MealsNavigator() {
 
 - console.log()會顯示在 IDE 的 TERMINAL 裡
 - android 模擬器，ctrl+M 可以開啟調適菜單
-  ![調適菜單](images\debug.png '調適菜單')
+  ![Android調適菜單](https://cdn.jsdelivr.net/gh/gusty1/Study_ReactNative@main/images/debug.png 'Android調適菜單')
