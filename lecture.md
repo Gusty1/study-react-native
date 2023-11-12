@@ -600,6 +600,41 @@ function MealsNavigator() {
 
 ---
 
+## 打包教學
+
+[官方文檔](https://docs.expo.dev/build/setup/ '官方文檔')
+
+1. 安裝 eas-cli
+
+```console
+npm install -g eas-cli
+```
+
+2. 登入 eas(expo)
+
+```console
+eas account:logout
+```
+
+3. eas build
+
+```console
+eas build:configure
+```
+
+輸入完後會問你要打包 ios 或 android
+
+4. 根據官方說明修改 eas.json
+   [官方說明](https://docs.expo.dev/build-reference/apk/ '官方說明')
+   過程中可能會問你很多問題，如果不知道就全部說 yes 就對了
+
+```console
+eas build -p android --profile preview
+```
+
+打包完成後會給你一個 QRCode，是一個網址，連到 expo 的 dashboard，你可以直接在上面下載 apk。
+若是要發佈到商店則需要多設定(我不會)。
+
 ## 其他
 
 - 如果函數帶括號會是立即執行的，一般不會這樣用
